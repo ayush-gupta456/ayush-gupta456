@@ -48,13 +48,21 @@
 
 
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=ayush-gupta456&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=ayush-gupta456&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ayush-gupta456&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+## 📊 Current GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ayush-gupta456&show_icons=true&hide_border=false&theme=jolly&count_private=true&include_all_commits=true)
+<br/>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ayush-gupta456&show_icons=true&hide_border=false&theme=jolly&count_private=true&include_all_commits=true&layout=compact)
+<br/>
+![GitHub Streak](https://streak-stats.demolab.com?user=ayush-gupta456&theme=jolly&hide_border=false)
+<br/>
+</div>
+
+> 🔁 *Note: GitHub stats may be inaccurate due to caching. Check your commit history directly for real-time accuracy.*
 
 ---
-[![](https://visitcount.itsvg.in/api?id=ayush-gupta456&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
