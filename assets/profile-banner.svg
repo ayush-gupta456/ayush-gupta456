@@ -1,31 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="48" viewBox="0 0 900 48">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="326" viewBox="0 0 880 326">
   <defs>
-    <linearGradient id="trace">
-      <stop stop-color="#168779" stop-opacity=".12"/>
-      <stop offset=".53" stop-color="#168779"/>
-      <stop offset="1" stop-color="#6274d8" stop-opacity=".24"/>
+    <linearGradient id="panel" x2="1" y2="1">
+      <stop stop-color="#111720"/>
+      <stop offset=".64" stop-color="#151e2e"/>
+      <stop offset="1" stop-color="#143333"/>
     </linearGradient>
-    <pattern id="grid" width="24" height="12" patternUnits="userSpaceOnUse">
-      <path d="M0 0H24M0 0V12" fill="none" stroke="#74839c" stroke-opacity=".25"/>
+    <linearGradient id="accent">
+      <stop stop-color="#75efa8"/>
+      <stop offset=".65" stop-color="#78c6ff"/>
+      <stop offset="1" stop-color="#82e4d0"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#b0c1dc" stroke-opacity=".08"/>
     </pattern>
+    <clipPath id="panel-edge"><rect x="1" y="1" width="878" height="324" rx="16"/></clipPath>
     <style>
-      .signal { animation: travel 5s ease-in-out infinite; }
-      @keyframes travel {
-        0%, 12% { transform: translateX(0); opacity: 0; }
-        24%, 73% { opacity: 1; }
-        86%, 100% { transform: translateX(384px); opacity: 0; }
+      .cursor { animation: blink 1.25s steps(1, end) infinite; }
+      .scan { animation: scan 7s ease-in-out infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      @keyframes scan {
+        0%, 100% { transform: translateX(0); opacity: 0; }
+        16%, 72% { opacity: 1; }
+        84% { transform: translateX(315px); opacity: 0; }
       }
-      @media (prefers-reduced-motion: reduce) { .signal { display: none; } }
+      @media (prefers-reduced-motion: reduce) { .cursor, .scan { animation: none; } .scan { display: none; } }
     </style>
   </defs>
-  <rect width="900" height="48" rx="8" fill="#74839c" opacity=".08"/>
-  <rect x="12" y="6" width="876" height="36" fill="url(#grid)"/>
-  <path d="M16 32H160l24-16h112l24 16h384l24-16h156" fill="none" stroke="url(#trace)" stroke-width="2"/>
-  <g fill="#168779">
-    <circle cx="184" cy="16" r="3"/>
-    <circle cx="320" cy="32" r="3"/>
-    <circle cx="704" cy="32" r="3"/>
-    <circle cx="728" cy="16" r="3"/>
-    <circle class="signal" cx="320" cy="32" r="4"/>
+  <g clip-path="url(#panel-edge)">
+    <rect width="880" height="326" fill="url(#panel)"/>
+    <rect width="880" height="326" fill="url(#grid)"/>
+    <path d="M0 49H880" stroke="#a5b8d2" stroke-opacity=".15"/>
+    <path d="M555 166h80l24-24h67l25 24h129" fill="none" stroke="#78c6ff" stroke-opacity=".27" stroke-width="2"/>
+    <circle class="scan" cx="555" cy="166" r="4" fill="#8eebd3"/>
+  </g>
+  <rect x="1" y="1" width="878" height="324" rx="16" fill="none" stroke="#435168"/>
+  <g font-family="Consolas, monospace">
+    <text x="28" y="31" fill="#a6b7cd" font-size="15">~/ayush-gupta456 / README.md</text>
+    <text x="852" y="31" text-anchor="end" fill="#82e4d0" font-size="15">PORTFOLIO</text>
+    <rect x="29" y="89" width="76" height="76" rx="17" fill="#102322" stroke="#4ea995"/>
+    <text x="67" y="137" text-anchor="middle" fill="#a9f8df" font-size="27" font-weight="700">AG</text>
+    <rect x="28" y="222" width="824" height="76" rx="10" fill="#0b121b" stroke="#35445a"/>
+    <text x="47" y="250" fill="#86a0bc" font-size="15">$ cat focus.txt</text>
+    <text x="47" y="278" fill="#d2e9ff" font-size="18">Developer tools · APIs · Creative web apps</text>
+    <rect class="cursor" x="510" y="263" width="9" height="17" rx="1" fill="#75efa8"/>
+  </g>
+  <g font-family="system-ui, Segoe UI, sans-serif">
+    <text x="124" y="139" fill="url(#accent)" font-size="65" font-weight="800">Ayush Gupta</text>
+    <text x="128" y="177" fill="#cbd9ea" font-size="23" font-weight="550">Full-stack developer</text>
   </g>
 </svg>

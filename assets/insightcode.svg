@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="149" viewBox="0 0 430 149">
+  <defs>
+    <linearGradient id="panel">
+      <stop stop-color="#161e2a"/>
+      <stop offset="1" stop-color="#101722"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="428" height="147" rx="13" fill="url(#panel)" stroke="#435168"/>
+  <circle cx="24" cy="25" r="4" fill="#79ccff"/>
+  <g font-family="Consolas, monospace" font-size="13">
+    <text x="38" y="30" fill="#79ccff">01 / DEVELOPER TOOLS</text>
+    <text x="20" y="127" fill="#a1b5cd">TypeScript / React / Express</text>
+    <text x="410" y="127" text-anchor="end" fill="#79ccff">CODE ↗</text>
+  </g>
+  <g font-family="system-ui, Segoe UI, sans-serif">
+    <text x="20" y="63" fill="#f1f6ff" font-size="24" font-weight="700">InsightCode</text>
+    <text x="20" y="92" fill="#c6d5e7" font-size="16">Source-backed findings and reviewable diffs</text>
+  </g>
+</svg>

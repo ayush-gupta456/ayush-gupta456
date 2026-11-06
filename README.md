@@ -1,37 +1,34 @@
-# Ayush Gupta
+<img src="./assets/profile-banner.svg" width="880" alt="Ayush Gupta, full-stack developer building developer tools, APIs, and creative web apps" />
 
-**Full-stack developer building developer tools and creative web apps.**
+[**Portfolio**](https://ayushgupta-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/ayush-gupta456/) · [Email](mailto:omayush456.ag@gmail.com)
 
-I work across React interfaces, Node.js APIs, and data models. I’m especially interested in how applications handle the steps that matter after the first click, from approving a code change to keeping credentials on the device.
+I build web apps across the stack, from React interfaces to APIs, authentication, and database design. My projects include a code review workspace with source-backed findings and a music studio that starts with lyrics.
 
-[Portfolio](https://ayushgupta-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/ayush-gupta456/) · [Email](mailto:omayush456.ag@gmail.com)
+## Tech stack
 
-<img src="./assets/profile-banner.svg" width="900" alt="" />
+| Area | Stack |
+| --- | --- |
+| **Languages** | `TypeScript` `JavaScript` `Java` `SQL` |
+| **Frontend** | `React` `Vite` `Tailwind CSS` `HTML` `CSS` |
+| **Backend** | `Node.js` `Express` `REST APIs` |
+| **Databases** | `MongoDB` `PostgreSQL` |
+| **Tools** | `Git` `GitHub` `Postman` `Vercel` |
 
-## Selected work
+## Selected projects
 
-### [InsightCode](https://github.com/ayush-gupta456/InsightCode)
+<p align="center">
+  <a href="https://github.com/ayush-gupta456/InsightCode"><img src="./assets/insightcode.svg" width="48%" alt="InsightCode. Code review workspace with source-backed findings and reviewable diffs." /></a>
+  <a href="https://github.com/ayush-gupta456/Raaga-ai-powered-music"><img src="./assets/raaga.svg" width="48%" alt="Raaga. Lyrics-first AI music studio powered by ACE Music." /></a>
+  <a href="https://github.com/ayush-gupta456/passmanager_localStorage"><img src="./assets/password-manager.svg" width="48%" alt="Local Password Manager. Password generation and encrypted browser storage." /></a>
+  <a href="https://github.com/ayush-gupta456/ayush_portfolio"><img src="./assets/portfolio.svg" width="48%" alt="Portfolio. Projects, experience, and certifications." /></a>
+</p>
 
-A code review workspace that links findings to the relevant source. Reviewers can inspect diffs, approve or revert snapshot patches, and import pull requests from GitHub. Gemini can assist with reviews and suggested fixes.
+[Try InsightCode](https://insightcode.vercel.app/) · [Explore all repositories](https://github.com/ayush-gupta456?tab=repositories)
 
-`TypeScript` · `React` · `Express` · `MongoDB` · [Live app](https://insightcode.vercel.app/)
+## Contribution activity
 
-### [Raaga](https://github.com/ayush-gupta456/Raaga-ai-powered-music)
+[Open my GitHub contribution calendar →](https://github.com/ayush-gupta456#contribution-graph)
 
-A lyrics-first AI music studio that uses your own ACE Music key and keeps generated audio in the session.
+## Let’s build something together
 
-`JavaScript` · `ACE Music`
-
-### [Local Password Manager](https://github.com/ayush-gupta456/passmanager_localStorage)
-
-A browser-based password manager with password generation and encrypted local storage.
-
-`JavaScript` · `Browser storage`
-
-## Technical focus
-
-- **Interfaces** · React, TypeScript, JavaScript, HTML, CSS
-- **APIs and authentication** · Node.js, Express, REST
-- **Data** · MongoDB, PostgreSQL, SQL
-
-[All repositories](https://github.com/ayush-gupta456?tab=repositories) · [Contribution history](https://github.com/ayush-gupta456#contribution-graph)
+Have a project in mind or want to talk about developer tooling? [Send me an email](mailto:omayush456.ag@gmail.com) or [connect on LinkedIn](https://www.linkedin.com/in/ayush-gupta456/).
