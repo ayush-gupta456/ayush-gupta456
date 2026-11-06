@@ -1,33 +1,37 @@
-<p align="center">
-  <img src="./assets/profile-banner.svg" width="900" alt="Ayush Gupta, full-stack developer with a backend focus" />
-</p>
+# Ayush Gupta
 
-<p align="center">
-  <a href="https://github.com/ayush-gupta456?tab=repositories"><img src="https://img.shields.io/badge/Repositories-172B46?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Browse my GitHub repositories" /></a>
-  <a href="https://www.linkedin.com/in/ayush-gupta456/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="Connect on LinkedIn" /></a>
-  <a href="mailto:omayush456.ag@gmail.com"><img src="https://img.shields.io/badge/Email-172B46?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Ayush Gupta" /></a>
-</p>
+**Full-stack developer building developer tools and creative web apps.**
 
-## About me
+I work across React interfaces, Node.js APIs, and data models. I’m especially interested in how applications handle the steps that matter after the first click, from approving a code change to keeping credentials on the device.
 
-I'm **Ayush Gupta**, a full-stack developer who enjoys building web applications from the database to the interface. My backend work covers REST APIs, authentication, database design, and deployment. I'm currently deepening my understanding of system design and backend performance.
+[Portfolio](https://ayushgupta-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/ayush-gupta456/) · [Email](mailto:omayush456.ag@gmail.com)
 
-## Tech stack
+<img src="./assets/profile-banner.svg" width="900" alt="" />
 
-| Area | Technologies |
-| --- | --- |
-| Frontend | React, HTML, CSS |
-| Backend | Node.js, Express.js, REST APIs |
-| Databases | MongoDB, PostgreSQL |
-| Languages | JavaScript, Java, SQL |
-| Tools and deployment | Git, GitHub, Postman, VS Code, Vercel, Netlify |
+## Selected work
 
-## GitHub activity
+### [InsightCode](https://github.com/ayush-gupta456/InsightCode)
 
-<p align="center">
-  <a href="https://github.com/ayush-gupta456">
-    <img src="https://github-readme-stats.vercel.app/api?username=ayush-gupta456&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true" width="440" alt="Ayush Gupta's GitHub activity summary" />
-  </a>
-</p>
+A code review workspace that links findings to the relevant source. Reviewers can inspect diffs, approve or revert snapshot patches, and import pull requests from GitHub. Gemini can assist with reviews and suggested fixes.
 
-[View my contribution calendar](https://github.com/ayush-gupta456#contribution-graph) · [Browse my repositories](https://github.com/ayush-gupta456?tab=repositories)
+`TypeScript` · `React` · `Express` · `MongoDB` · [Live app](https://insightcode.vercel.app/)
+
+### [Raaga](https://github.com/ayush-gupta456/Raaga-ai-powered-music)
+
+A lyrics-first AI music studio that uses your own ACE Music key and keeps generated audio in the session.
+
+`JavaScript` · `ACE Music`
+
+### [Local Password Manager](https://github.com/ayush-gupta456/passmanager_localStorage)
+
+A browser-based password manager with password generation and encrypted local storage.
+
+`JavaScript` · `Browser storage`
+
+## Technical focus
+
+- **Interfaces** · React, TypeScript, JavaScript, HTML, CSS
+- **APIs and authentication** · Node.js, Express, REST
+- **Data** · MongoDB, PostgreSQL, SQL
+
+[All repositories](https://github.com/ayush-gupta456?tab=repositories) · [Contribution history](https://github.com/ayush-gupta456#contribution-graph)
